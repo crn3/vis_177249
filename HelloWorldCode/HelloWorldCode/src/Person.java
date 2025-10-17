@@ -1,9 +1,10 @@
-public class Person {
-    /**
+/**
      * Creates a person with a name and age
      * @author Rachael Kenny
      * @version 1.0
      */
+public class Person {
+    
 
     private String name;
     private int age;
