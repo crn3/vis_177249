@@ -1,3 +1,4 @@
+package main;
 /**
      * Creates a person with a name and age
      * @author Rachael Kenny

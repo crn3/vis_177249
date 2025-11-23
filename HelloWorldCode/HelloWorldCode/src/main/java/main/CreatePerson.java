@@ -1,3 +1,4 @@
+package main;
 
 
 import java.util.Scanner;
@@ -21,7 +22,15 @@ public class CreatePerson {
 
         System.out.print("Enter name: ");
         name = scanner.nextLine();
+        while(!name.matches("[a-zA-Z ]+")){
+            System.out.print("Enter a valid name: ");
+            name = scanner.nextLine();
+        }
         System.out.print("Enter age: ");
+        while(!scanner.hasNextInt()){
+            System.out.print("Enter an int: ");
+            scanner.next();
+        }
         age = scanner.nextInt();
 
         scanner.close();
