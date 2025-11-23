@@ -1,22 +1,24 @@
 package main;
 
-
 import java.util.Scanner;
 
 /**
- * Creates a person object using user input
+ * Creates a person object using user input.
  */
 
-public class CreatePerson {
+public final class CreatePerson {
 	
-	/**
-	 * Main method to create a Person object using user input and printing Person details
-	 * @param args user inputed name and age
+    // Private constructor for utility class
+    private CreatePerson() {}
+	
+    /**
+	 * Main method to create a Person object using user input 
+     * and print Person details.
+	 * @param args command-line arguments (not used)
 	 */
+    public static void main(final String[] args) {
 
-    public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         String name;
         int age;
 
@@ -35,7 +37,7 @@ public class CreatePerson {
 
         scanner.close();
 
-        Person person = new Person(name, age);
+        final Person person = new Person(name, age);
 
         System.out.println(person.getName());
         System.out.println(person.getAge());
