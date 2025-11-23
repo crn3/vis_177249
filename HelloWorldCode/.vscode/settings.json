@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "HelloWorldCode\\src"
+    ],
+    "java.project.referencedLibraries": [],
+    "maven.executable.path": "C:\\Program Files\\apache-maven-3.9.11\\bin\\mvn.cmd"
+}
