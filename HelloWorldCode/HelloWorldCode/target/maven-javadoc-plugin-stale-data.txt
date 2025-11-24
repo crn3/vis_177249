@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/racha/OneDrive - Atlantic TU/Year 4/DevOps/vis_177249/HelloWorldCode/HelloWorldCode/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/racha/OneDrive - Atlantic TU/Year 4/DevOps/vis_177249/HelloWorldCode/HelloWorldCode/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'HelloWorldCode 1 API'
+-use
+-version
+-windowtitle
+'HelloWorldCode 1 API'
+main
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\src\main\java = 1763835039138
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\allclasses-index.html = 1763993961210
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\allpackages-index.html = 1763993961218
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\copy.svg = 1763993961320
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\element-list = 1763993961077
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\help-doc.html = 1763993961305
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\index-all.html = 1763993961286
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\index.html = 1763993961296
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\link.svg = 1763993961322
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\member-search-index.js = 1763993961228
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\module-search-index.js = 1763993961221
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\overview-tree.html = 1763993961161
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\package-search-index.js = 1763993961223
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\script.js = 1763993961317
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\search-page.js = 1763993961351
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\search.html = 1763993961291
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\search.js = 1763993961347
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\stylesheet.css = 1763993961315
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\tag-search-index.js = 1763993961231
+C:\Users\racha\OneDrive - Atlantic TU\Year 4\DevOps\vis_177249\HelloWorldCode\HelloWorldCode\target\reports\apidocs\type-search-index.js = 1763993961226
