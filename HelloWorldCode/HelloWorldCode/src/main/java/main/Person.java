@@ -16,22 +16,22 @@ public class Person {
     /**
      * Constructs a new Person with a name and age.
      *
-     * @param name the person's name
-     * 
-     * @param age the person's age
+     * @param personName the person's name
+     *
+     * @param personAge the person's age
      */
-    public Person(final String name, final int age) {
-        this.name = name;
-        this.age = age;
+    public Person(final String personName, final int personAge) {
+        this.name = personName;
+        this.age = personAge;
     }
 
     /**
      * Sets the person's name.
      *
-     * @param name the person's name
+     * @param personName the person's name
      */
-    public void setName(final String name) {
-        this.name = name;
+    public void setName(final String personName) {
+        this.name = personName;
     }
 
     /**
