@@ -46,10 +46,10 @@ public class Person {
     /**
      * Sets the person's age.
      *
-     * @param age the person's age
+     * @param personAge the person's age
      */
-    public void setAge(final int age) {
-        this.age = age;
+    public void setAge(final int personAge) {
+        this.age = personAge;
     }
 
     /**
