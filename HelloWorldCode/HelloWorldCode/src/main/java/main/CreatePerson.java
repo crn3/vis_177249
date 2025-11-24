@@ -9,15 +9,15 @@ import java.util.Scanner;
 public final class CreatePerson {
 
     // Private constructor for utility class
-    private CreatePerson() {}
+    private CreatePerson() { } 
 
     /**
-     * Main method to create a Person object using user input and print Person details.
+     * Main method to create a Person object 
+     * using user input and print Person details.
      *
      * @param args command-line arguments (not used)
      */
     public static void main(final String[] args) {
-
         final Scanner scanner = new Scanner(System.in);
         String name;
         int age;
