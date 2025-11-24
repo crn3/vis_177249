@@ -2,8 +2,8 @@ package tests;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
 import main.Person;
+import org.junit.Test;
 
 /**
  * Unit tests for Person age methods.
@@ -20,6 +20,7 @@ public class PersonAgeTest {
         assertEquals(AGE_NEW, person.getAge());
 
     }
+
     @Test
     public void testSetAge() {
         Person person = new Person("John Doe", AGE_INITIAL);

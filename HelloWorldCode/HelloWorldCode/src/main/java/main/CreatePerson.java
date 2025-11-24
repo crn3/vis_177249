@@ -7,15 +7,15 @@ import java.util.Scanner;
  */
 
 public final class CreatePerson {
-	
+
     // Private constructor for utility class
     private CreatePerson() {}
-	
+
     /**
-	 * Main method to create a Person object using user input 
-     * and print Person details.
-	 * @param args command-line arguments (not used)
-	 */
+     * Main method to create a Person object using user input and print Person details.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(final String[] args) {
 
         final Scanner scanner = new Scanner(System.in);
@@ -24,12 +24,12 @@ public final class CreatePerson {
 
         System.out.print("Enter name: ");
         name = scanner.nextLine();
-        while(!name.matches("[a-zA-Z ]+")){
+        while (!name.matches("[a-zA-Z ]+")) {
             System.out.print("Enter a valid name: ");
             name = scanner.nextLine();
         }
         System.out.print("Enter age: ");
-        while(!scanner.hasNextInt()){
+        while (!scanner.hasNextInt()) {
             System.out.print("Enter an int: ");
             scanner.next();
         }

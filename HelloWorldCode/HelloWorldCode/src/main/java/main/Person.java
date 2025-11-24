@@ -1,11 +1,13 @@
 package main;
+
 /**
  * Creates a person with a name and age.
+ *
  * @author Rachael Kenny
  * @version 1.0
  */
 public class Person {
-    
+
     /** The person's name. */
     private String name;
     /** The person's age. */
@@ -13,8 +15,9 @@ public class Person {
 
     /**
      * Constructs a new Person with a name and age.
-     * 
+     *
      * @param name the person's name
+     * 
      * @param age the person's age
      */
     public Person(final String name, final int age) {
@@ -22,19 +25,19 @@ public class Person {
         this.age = age;
     }
 
-    /** 
+    /**
      * Sets the person's name.
-     *  
-     * @param name the person's name 
+     *
+     * @param name the person's name
      */
     public void setName(final String name) {
         this.name = name;
     }
 
-    /** 
+    /**
      * Returns the person's name.
-     * 
-     * @return the person's name 
+     *
+     * @return the person's name
      */
     public String getName() {
         return this.name;
@@ -42,17 +45,17 @@ public class Person {
 
     /**
      * Sets the person's age.
-     * 
-     * @param age the person's age 
+     *
+     * @param age the person's age
      */
     public void setAge(final int age) {
         this.age = age;
     }
 
     /**
-     * Returns the person's age
-     * 
-     * @return the person's age 
+     * Returns the person's age.
+     *
+     * @return the person's age
      */
     public int getAge() {
         return this.age;
