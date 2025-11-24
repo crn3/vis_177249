@@ -1,4 +1,4 @@
 /**
- * Contains classes related to creating Person objects. 
+ * Contains classes related to creating Person objects.
  */
 package main;
