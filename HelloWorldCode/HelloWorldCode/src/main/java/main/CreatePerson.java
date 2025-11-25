@@ -12,7 +12,7 @@ public final class CreatePerson {
     private CreatePerson() { }
 
     /**
-     * Main method to create a Person object
+     * Main method to create a new Person object
      * using user input and print Person details.
      *
      * @param args command-line arguments (not used)
