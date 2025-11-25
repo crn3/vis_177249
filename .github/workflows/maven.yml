@@ -69,7 +69,7 @@ jobs:
         run: mvn javadoc:javadoc --file HelloWorldCode/HelloWorldCode/pom.xml
 
       - name: Upload Javadoc
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
           name: javadoc
           path: HelloWorldCode/HelloWorldCode/target/reports/apidocs
@@ -93,7 +93,7 @@ jobs:
          fetch-depth: 0
 
      - name: Download Javadocs
-       uses: actions/download-artifact@v6
+       uses: actions/download-artifact@v4
        with:
          name: javadoc
          path: new-apidocs
