@@ -97,10 +97,9 @@ jobs:
          name: javadoc
          path: new-apidocs
 
-     - name: Sync Javadoc changes into /main
+     - name: Sync Javadoc changes into branch
        run: |
-         mkdir -p main
-         rsync -rcv --delete new-apidocs/* main/
+         rsync -rcv --delete new-apidocs/ .
      
      - name: Commit & push if changes exist
        run: |
