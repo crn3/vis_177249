@@ -80,15 +80,15 @@ jobs:
            directory: HelloWorldCode/HelloWorldCode
            
   deploy-javadoc: 
-    name: Deploy Javadocs to gh-pages
+    name: Deploy Javadocs to test
     runs-on: ubuntu-latest
     needs: build
 
     steps:
-     - name: Checkout gh-pages
+     - name: Checkout test
        uses: actions/checkout@v6
        with:
-         ref: gh-pages
+         ref: test
          fetch-depth: 0
 
      - name: Download Javadocs
@@ -108,7 +108,7 @@ jobs:
          git config user.email "github-actions[bot]@users.noreply.github.com"
          git add .
          git diff-index --quiet HEAD || git commit -m "Update Javadocs from workflow"
-         git push origin gh-pages
+         git push origin test
 
 
       
