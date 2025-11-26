@@ -22,4 +22,4 @@ jobs:
           # subdirectories: moduleA moduleB #for subdirectories support, needs to be run with custom command
           # subdirectories: HelloWorldCode/HelloWorldCode
           custom-command: mvn javadoc:javadoc -f HelloWorldCode/HelloWorldCode/pom.xml
-          javadoc-source-path: HelloWorldCode/HelloWorldCode/target/reports/apidocs
+          javadoc-source-folder: HelloWorldCode/HelloWorldCode/target/reports/apidocs
