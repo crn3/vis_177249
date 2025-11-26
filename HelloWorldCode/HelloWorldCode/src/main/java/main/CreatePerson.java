@@ -10,10 +10,11 @@ import java.util.Scanner;
 
 public final class CreatePerson {
 
-    // Creating a logger
+    /**
+     * Logger for CreatePerson.
+     */
     private static final Logger LOGGER =
     Logger.getLogger(CreatePerson.class.getName());
-    
     // Private constructor for utility class
     private CreatePerson() { }
 
